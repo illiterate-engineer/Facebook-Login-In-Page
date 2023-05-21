@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #f0f2f5;
+}
+
+.flex-container{
+    display: flex;
+    height: 99vh;
+    justify-content: center;
+    align-items: center;
+}
+.flex-child{
+    margin: 50px;
+}
+
+.logo{
+    height: 106px;
+    margin: -28px;
+}
+
+.line{
+    font-weight: normal;
+    font-size: 26px;
+    width: 425px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    min-width: 355px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline-color: #1877f2;
+    border: 1px solid #dddfe2;
+}
+
+.btn-blue{
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    padding: 12px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.forgot-password{
+    text-align: center;
+    font-weight: lighter;
+    border-bottom: 1px solid #dddfe2;
+    margin-bottom:20px;
+    padding-bottom: 20px;
+}
+
+.btn-green{
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bolder;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+p{
+    text-align: center;
+}
+
+.create-page{
+    color: black;
+    font-weight: bolder;
+}
+.create-page:hover{
+    text-decoration: underline;
+}
+footer{
+    max-height: 1000px;
+}
+.footer-content{
+    /* position: relative; */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.combined-ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.first-ol{
+    border-bottom: 1px solid #dddfe2;
+}
+.button{
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    color:#4b4f56;
+    padding: 0 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+footer ol li{
+    padding-right: 15px;
+    color: #8a8d91;
+    font-size: 12px;
+}
+
+footer ol li a{
+    color:#8a8d91;
+    text-decoration: none;
+}
+footer ol li a:hover{
+    text-decoration: underline;
+}
+
+.second-ol{
+line-height: 1.6;
+}
+small{
+    font-size: 11px;
+    color:#8a8d91 ;
+}
+
